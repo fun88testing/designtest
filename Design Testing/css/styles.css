@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*global styles end here
+=======================*/
+
+.top-nav {
+    background-color: #2199ca;
+    padding: 10px;
+}
+
+.grp-left {
+    margin-left: 50px;
+}
+
+.grp-left ul {
+    line-height: 35px;
+}
+
+.grp-left ul {
+    list-style: none;
+}
+
+.grp-left ul li {
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.grp-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.username, .pw {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.login {
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px 8px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 10px;
+    text-transform: uppercase;  
+}
+
+.signup {
+    text-decoration: none;
+    background-color: #33c85d;
+    padding: 10px 8px;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-nav {
+    background-color: #25aae1;
+}
+
+.nav-wrapper {
+    padding: 5px 0;
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul li {
+    list-style: none;
+    float: left;
+    display: block;
+    margin: 15px 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+.navigation ul li a:hover {
+    background-color: #2199ca;
+}
+
+.banner-container {
+    width: 100%;
+}
+
+.banner-container img {
+    width: 100%;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.body {
+    width: 100%;
+}
+
+.body img {
+    width: 100%;
+}
+
+.body-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .img-mobile {
+        display: block;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .body-mobile {
+        display: block;
+    }
+
+    .body-desktop {
+        display: none;
+    }
+
+    .grp-right {
+        display: none;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+        display: block;
+    }
+}
