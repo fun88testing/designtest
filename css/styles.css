@@ -42,6 +42,16 @@ body {
     margin-right: 25px;
 }
 
+.grp-left ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grp-left ul li a:hover {
+    color: red;
+}
+
 .grp-right {
     float: right;
     margin-right: 50px;
@@ -101,8 +111,7 @@ body {
 
 .navigation ul li {
     list-style: none;
-    float: left;
-    display: block;
+    display: inline-block;
     margin: 15px 0;
 }
 
@@ -140,7 +149,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
     .img-mobile {
         display: block;
     }
